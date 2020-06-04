@@ -1,0 +1,26 @@
+<nav class="navbar">
+    <div class="container">
+        <div class="ui-g">
+            <div class="ui-g-12">
+                <a href="javascript:;" class="navbar-toggle" (click)="exibirMenu=!exibirMenu">
+                    <i class="pi pi-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <ul class="navbar-menu" [hidden]="!exibirMenu">
+        <li class="navbar-usuario">
+            <img class="img" src="../../../assets/lion.png">
+            <p class="alignT">Seja bem vindo $Usuário$</p>
+        </li>
+        <li class="navbar-menuitem">
+            <i class="pi pi-th-large blueback"></i>
+            <a routerLink="/categorias"> Categorias</a></li>
+        <li class="navbar-menuitem">
+            <i class="pi pi-shopping-cart blueback"></i>
+            <a routerLink="/produtos"> Produtos</a></li>
+        <li class="navbar-menuitem">
+            <i class="pi pi-sign-out blueback"></i>
+            <a href="#"> Logout</a></li>
+    </ul>
+</nav>
