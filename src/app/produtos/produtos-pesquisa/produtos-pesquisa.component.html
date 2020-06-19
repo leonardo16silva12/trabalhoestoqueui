@@ -37,7 +37,7 @@
                         <td class="col-idcategoria">{{pro.categoria.id}}</td>
                         <td class="col-nomecategoria">{{pro.categoria.nome}}</td>
                         <td class="col-acoes">
-                            <a class="separeB" pButton icon="pi pi-pencil" pTooltip="Editar" tooltipPosition="top"> </a>
+                            <a class="separeB" pButton icon="pi pi-pencil" pTooltip="Editar" tooltipPosition="top" [routerLink]="['/produtos', pro.id]"> </a>
                             <button class="separeB" pButton icon="pi pi-trash" pTooltip="Excluir" tooltipPosition="top" (click)="confirmarExclusao(pro)"> </button>
                         </td>
 

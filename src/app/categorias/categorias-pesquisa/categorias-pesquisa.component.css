@@ -33,7 +33,8 @@ label {
 }
 
 .col-acoes {
-    width: 120px;
+    max-width: 100px;
+    width: auto;
     text-align: center;
 }
 

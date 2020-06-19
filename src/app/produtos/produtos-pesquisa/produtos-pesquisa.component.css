@@ -20,11 +20,11 @@ label {
 }
 
 .col-id-header {
-    width: 80px;
+    width: 60px;
 }
 
 .col-id {
-    width: 80px;
+    width: 60px;
     text-align: center;
 }
 
@@ -47,20 +47,22 @@ label {
 }
 
 .col-idcategoria-header {
-    width: 80px;
+    width: 85px;
 }
 
 .col-idcategoria {
-    width: 80px;
+    max-width: 50px;
+    width: auto;
     text-align: center;
 }
 
 .col-nomecategoria-header {
-    width: 80px;
+    width: 150px;
 }
 
 .col-nomecategoria {
-    width: 80px;
+    max-width: 150px;
+    width: auto;
     text-align: center;
 }
 

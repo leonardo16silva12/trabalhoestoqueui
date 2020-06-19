@@ -6,6 +6,6 @@ export class Categoria {
 export class Produto {
     id: number;
     nome: string;
-    preco: number;
+    preco: string;
     idcategoria: number;
 }

@@ -1,4 +1,5 @@
-import { FormsModule } from '@angular/forms';
+import { SharedModule } from './../shared/shared.module';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProdutosPesquisaComponent } from './produtos-pesquisa/produtos-pesquisa.component';
@@ -18,6 +19,8 @@ import { ProdutosCadastroComponent } from './produtos-cadastro/produtos-cadastro
   imports: [
     CommonModule,
     FormsModule,
+    ReactiveFormsModule,
+    SharedModule,
     RouterModule,
     InputTextModule,
     ButtonModule,
